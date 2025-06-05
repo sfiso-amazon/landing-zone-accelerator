@@ -1,0 +1,106 @@
+mandatoryAccounts:
+  - name: Management
+    description: >-
+      The management (primary) account. Do not change the name field for this
+      mandatory account. Note, the account name key does not need to match the
+      AWS account name.
+    email: smaseko+dev@amazon.com
+    organizationalUnit: Root
+    warm: false
+  - name: LogArchive
+    description: >-
+      The log archive account. Do not change the name field for this mandatory
+      account. Note, the account name key does not need to match the AWS account
+      name.
+    email: smaseko+log@amazon.com
+    organizationalUnit: Security
+    warm: false
+  - name: Audit
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: smaseko+audit@amazon.com
+    organizationalUnit: Security
+    warm: false
+  - name: AFT Management-2
+    description: >-
+      My AFT Management Account
+    email: smaseko+aft-management-2@amazon.com
+    organizationalUnit: AFT Unit
+    warm: false
+  - name: test-request-2
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: smaseko+test-request-2@amazon.com
+    organizationalUnit: Sandbox
+    warm: false
+  - name: test-request
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: smaseko+test-request@amazon.com
+    organizationalUnit: Sandbox
+    warm: false
+
+  - name: qa
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: smaseko+qa@amazon.com
+    organizationalUnit: Root
+    warm: false
+
+  - name: aft-manager
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: smaseko+aft-management@amazon.com
+    organizationalUnit: Root
+    warm: false
+  - name: developer
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: smaseko+developer@amazon.com
+    organizationalUnit: Root
+    warm: false
+  - name: sinazo
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: smaseko+sinazo@amazon.com
+    organizationalUnit: Root
+    warm: false
+  - name: AFT Management
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: smaseko+aft@amazon.com
+    organizationalUnit: Root
+    warm: false
+  - name: central backup account
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: smaseko+central-backup@amazon.com
+    organizationalUnit: Root
+    warm: false
+  - name: backup administrator account
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: smaseko+bacup-admin@amazon.com
+    organizationalUnit: Root
+    warm: false
+workloadAccounts: []

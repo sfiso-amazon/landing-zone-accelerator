@@ -1,0 +1,10 @@
+enable: true
+organizationalUnits:
+  - name: Security
+  - name: Infrastructure
+  - name: AFT Unit
+  - name: Sandbox
+serviceControlPolicies: []
+taggingPolicies: []
+chatbotPolicies: []
+backupPolicies: []
