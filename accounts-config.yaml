@@ -45,7 +45,6 @@ mandatoryAccounts:
     email: smaseko+test-request@amazon.com
     organizationalUnit: Sandbox
     warm: false
-
   - name: qa
     description: >-
       The security audit account (also referred to as the audit account). Do not
@@ -54,7 +53,6 @@ mandatoryAccounts:
     email: smaseko+qa@amazon.com
     organizationalUnit: Root
     warm: false
-
   - name: aft-manager
     description: >-
       The security audit account (also referred to as the audit account). Do not
