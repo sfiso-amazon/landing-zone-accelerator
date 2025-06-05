@@ -23,7 +23,7 @@ mandatoryAccounts:
     email: smaseko+audit@amazon.com
     organizationalUnit: Security
     warm: false
-  - name: AFT Management-2
+  - name: AFT-Management-2
     description: >-
       My AFT Management Account
     email: smaseko+aft-management-2@amazon.com
@@ -77,7 +77,7 @@ mandatoryAccounts:
     email: smaseko+sinazo@amazon.com
     organizationalUnit: Root
     warm: false
-  - name: AFT Management
+  - name: AFT-Management
     description: >-
       The security audit account (also referred to as the audit account). Do not
       change the name field for this mandatory account. Note, the account name
@@ -85,7 +85,7 @@ mandatoryAccounts:
     email: smaseko+aft@amazon.com
     organizationalUnit: Root
     warm: false
-  - name: central backup account
+  - name: central
     description: >-
       The security audit account (also referred to as the audit account). Do not
       change the name field for this mandatory account. Note, the account name
@@ -93,7 +93,7 @@ mandatoryAccounts:
     email: smaseko+central-backup@amazon.com
     organizationalUnit: Root
     warm: false
-  - name: backup administrator account
+  - name: backup
     description: >-
       The security audit account (also referred to as the audit account). Do not
       change the name field for this mandatory account. Note, the account name
