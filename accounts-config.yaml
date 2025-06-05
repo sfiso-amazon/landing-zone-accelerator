@@ -23,7 +23,7 @@ mandatoryAccounts:
     email: smaseko+audit@amazon.com
     organizationalUnit: Security
     warm: false
-  - name: AFT Management-2
+  - name: AFT-Management-2
     description: >-
       My AFT Management Account
     email: smaseko+aft-management-2@amazon.com
