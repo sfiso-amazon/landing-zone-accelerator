@@ -4,6 +4,8 @@ organizationalUnits:
   - name: Infrastructure
   - name: AFT Unit
   - name: Sandbox
+  - name: Suspended
+    ignore: true
 serviceControlPolicies: []
 taggingPolicies: []
 chatbotPolicies: []
