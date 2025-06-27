@@ -1,0 +1,12 @@
+customizations:
+  cloudFormationStacks:
+    - deploymentTargets:
+      organizationalUnits:
+          - Root  # Or specify specific OUs/accounts where you want the bucket
+      description: Simple S3 bucket deployment
+      name: simple-s3-stack
+      regions:
+        - us-east-1  # Specify your desired region(s)
+      runOrder: 1
+      template: cloudformation/simple-s3.yaml
+      terminationProtection: true

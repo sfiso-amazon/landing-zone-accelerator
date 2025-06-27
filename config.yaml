@@ -1,0 +1,3 @@
+homeRegion: us-east-1  # Your home region
+customizationConfig:
+  enable: true
