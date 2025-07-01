@@ -1,7 +1,7 @@
 customizations:
   cloudFormationStacks:
     - deploymentTargets:
-        organizationalUnits:
+      organizationalUnits:
           - Root  # Or specify specific OUs/accounts where you want the bucket
       description: Simple S3 bucket deployment
       name: simple-s3-stack
