@@ -6,8 +6,18 @@
             "Action": [
                 "cloudformation:CreateStack",
                 "cloudformation:UpdateStack",
+                "cloudformation:DeleteStack",
+                "cloudformation:DescribeStacks",
+                "cloudformation:ListStacks",
+                "cloudformation:GetTemplateSummary",
+                "cloudformation:ValidateTemplate",
+                "cloudformation:DescribeStackEvents",
+                "cloudformation:DescribeStackResource",
+                "cloudformation:DescribeStackResources"
             ],
-            "Resource": "*"
+            "Resource": [
+                "arn:aws:cloudformation:*:*:stack/*/*"
+            ]
         }
     ]
 }
