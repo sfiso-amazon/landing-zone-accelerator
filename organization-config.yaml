@@ -6,7 +6,14 @@ organizationalUnits:
   - name: Sandbox
   - name: Suspended
     ignore: true
-serviceControlPolicies: []
+serviceControlPolicies:
+  - name: Cloudformation-least-privilege
+    description: SCP to a registered OU which provides least privilege to accounts needing to work with CloudFormation 
+    policy: Policy/policy.json
+    type: customerManaged
+    deploymentTargets:
+      organizationalUnits:
+        - Root
 taggingPolicies: []
 chatbotPolicies: []
 backupPolicies: []
