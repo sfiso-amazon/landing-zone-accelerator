@@ -1,6 +1,15 @@
-defaultVpc:
-  delete: false
-  excludeAccounts: []
-transitGateways: []
-endpointPolicies: []
-vpcs: []
+- name: accelerator-sg
+  description: Accelerator security group
+  inboundRules:
+    - description: Remote access security group rule
+      types:
+        - RDP
+        - SSH
+      sources:
+        - 10.0.0.0/16
+  outboundRules:
+    - description: Allow all outbound
+      types:
+        - ALL
+      sources:
+        - 0.0.0.0/0
